@@ -35,7 +35,7 @@ public class JoinGameActivity extends AppCompatActivity {
 
         //myRef.child(game.getGameID()).setValue("users");
 
-        myRef.child(game.getGameID()).child("Users").child(user.getUID()).setValue(user);
+        //myRef.child(game.getGameID()).child("Users").child(user.getUID()).setValue(user);
 
 
 
