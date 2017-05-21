@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.GameLobbyActivity"
+            android:name=".Activity.NewGameActivity"
             android:label="@string/title_activity_game_lobby"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Activity.JoinGameActivity"></activity>

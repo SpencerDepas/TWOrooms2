@@ -30,7 +30,7 @@
         android:textSize="20pt"
         android:layout_gravity="center"
         android:id="@+id/new_game"
-        android:layout_above="@+id/button2"
+        android:layout_above="@+id/join_game"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:background="#ee1c29" />
@@ -41,7 +41,7 @@
         android:text="Join Game"
         android:textSize="20pt"
         android:layout_gravity="center"
-        android:id="@+id/button2"
+        android:id="@+id/join_game"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/new_game"
         android:layout_marginBottom="40dp"
