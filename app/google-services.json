@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22771340212",
+    "firebase_url": "https://two-rooms-292a8.firebaseio.com",
+    "project_id": "two-rooms-292a8",
+    "storage_bucket": "two-rooms-292a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22771340212:android:6257e9cf7cff87cf",
+        "android_client_info": {
+          "package_name": "com.clearfaun.spencerdepas.tworooms2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22771340212-1e1ffqe15gcnro0k86sj89q320ur9nfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.clearfaun.spencerdepas.tworooms2",
+            "certificate_hash": "8479d7f31e20ad291a0785fb22b30fb3b4ec3ef8"
+          }
+        },
+        {
+          "client_id": "22771340212-mrq6fq3k9019kdrg18gmmcveu2i1usn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7oKdw5pBw0zznD4x7_zY4vOfDs_lw2Bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22771340212-mrq6fq3k9019kdrg18gmmcveu2i1usn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
