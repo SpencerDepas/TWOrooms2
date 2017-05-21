@@ -1,11 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.clearfaun.spencerdepas.tworooms2.GameLobbyActivity"
-    tools:showIn="@layout/activity_game_lobby">
+    tools:showIn="@layout/activity_game_lobby"
+    android:background="#570c10">
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/background_lobby"
+            android:layout_marginBottom="10dp"
+            android:foregroundGravity="top"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textSize="100pt"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:textColor="#ee1c29"/>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="users in lobby"
+        android:textSize="40sp"
+        android:layout_marginBottom="65dp"
+        android:id="@+id/textView"
+        android:textColor="#ee1c29"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Code: XYZ123"
+        android:textSize="40sp"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/imageView"
+        android:textColor="#ee1c29"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
