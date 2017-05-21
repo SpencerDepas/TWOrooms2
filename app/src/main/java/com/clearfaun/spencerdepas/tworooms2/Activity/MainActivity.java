@@ -1,4 +1,4 @@
-package com.clearfaun.spencerdepas.tworooms2;
+package com.clearfaun.spencerdepas.tworooms2.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.clearfaun.spencerdepas.tworooms2.R;
 
 public class MainActivity extends AppCompatActivity {
 

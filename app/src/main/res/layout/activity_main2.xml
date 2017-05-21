@@ -4,15 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.clearfaun.spencerdepas.tworooms2.Activity.GameLobbyActivity"
-    tools:showIn="@layout/activity_game_lobby">
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:textSize="30sp"
-        android:id="@+id/game_code"
-        android:layout_height="wrap_content" />
+    tools:context="com.clearfaun.spencerdepas.tworooms2.Activity.JoinGameActivity">
 
 </android.support.constraint.ConstraintLayout>
