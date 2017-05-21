@@ -7,7 +7,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class GameLobby extends AppCompatActivity {
+import com.clearfaun.spencerdepas.tworooms2.Model.Game;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+public class GameLobbyActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +21,17 @@ public class GameLobby extends AppCompatActivity {
         setContentView(R.layout.activity_game_lobby);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+        Game game = new Game();
+
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("games");
+
+        myRef.child("game1").
+        myRef.setValue("game1", game.getGameID());
+        myRef.getDatabase();
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
